@@ -1,0 +1,2 @@
+json_key_file("fastlane/google-apikey.json")
+package_name("com.barnesandnoble.app")

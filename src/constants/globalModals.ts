@@ -1,0 +1,16 @@
+export enum GlobalModals {
+  GUEST_USER = 'guestUser',
+  GUEST_USER_CONTINUE = 'guestUserContinue',
+  CAFE_ORDER_PROGRESS = 'cafeOrderProgress',
+  CALENDAR_PERMISSION = 'calendarPermission',
+  LOCATION_PERMISSION = 'locationPermission',
+  LOCATION_PERMISSION_STORE = 'locationPermissionStore',
+  CAMERA_PERMISSION = 'cameraPermission',
+  CAFE_ERROR = 'cafeError',
+  CART_ERROR = 'cartError',
+  CAFE_ITEM_OUT_OF_STOCK = 'cafeItemOutOfStock',
+  PDP_ERROR = 'pdpError',
+  ACCOUNT_ERROR = 'accountError',
+  RELOG_ACCOUNT = 'relog_account',
+  CAFE_DISABLED = 'cafe_disabled',
+}

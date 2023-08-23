@@ -1,0 +1,83 @@
+<manifest
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  package="com.barnesandnoble.app" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <permission
+      android:name="com.barnesandnoble.app.permission.GET_LOGIN_CREDENTIALS"
+      android:protectionLevel="signature" />
+
+    <application
+      android:name=".MainApplication"
+      android:label="@string/app_name"
+      android:icon="@mipmap/ic_launcher"
+      android:roundIcon="@mipmap/ic_launcher_round"
+      android:allowBackup="false"
+      android:largeHeap="true"
+      android:usesCleartextTraffic="true"
+      android:theme="@style/AppTheme">
+      <activity
+        android:name=".MainActivity"
+        android:label="@string/app_name"
+        android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+        android:screenOrientation="portrait"
+        android:windowSoftInputMode="adjustPan"
+        android:launchMode="singleTask"
+        android:hardwareAccelerated="false">
+        <intent-filter>
+          <action android:name="android.intent.action.MAIN" />
+          <category android:name="android.intent.category.LAUNCHER" />
+          <action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
+          <action android:name="android.intent.action.VIEW" />
+          <category android:name="android.intent.category.DEFAULT" />
+          <category android:name="android.intent.category.BROWSABLE" />
+        </intent-filter>
+        <intent-filter>
+          <action android:name="android.intent.action.VIEW" />
+          <category android:name="android.intent.category.DEFAULT" />
+          <category android:name="android.intent.category.BROWSABLE" />
+          <data android:scheme="barnesnoble" />
+        </intent-filter>
+        <intent-filter>
+          <data android:scheme="amp8197292eeff6925f300e15b-ebb1973c-b22f-11e9-5723-007c928ca240" />
+          <action android:name="android.intent.action.VIEW" />
+          <category android:name="android.intent.category.DEFAULT" />
+          <category android:name="android.intent.category.BROWSABLE" />
+        </intent-filter>
+      </activity>
+      <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+      <provider
+        android:authorities="com.barnesandnoble.app.provider"
+        android:name=".Provider"
+        android:exported="true"
+        android:readPermission="com.barnesandnoble.app.permission.GET_LOGIN_CREDENTIALS" /> <!-- See email from savss@bn.com - Aug 12, 2019-->
+      <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="@string/GOOGLE_API_KEY_ANDROID"/>
+
+  <!-- - Commenting out to fix release builds, and since we don't have wallet support for Android yet.
+          (when we do - will this be needed?) - Serge
+       - Also concerned that it interferes with com.barnesandnoble.app.provider
+          above for NOOK to get our BNApp credentials
+      <provider
+        android:name="android.support.v4.content.FileProvider"
+        android:authorities="com.barnesandnoble.app.provider"
+        android:grantUriPermissions="true"
+        android:exported="false"
+        tools:replace="android:authorities">
+        <meta-data
+          android:name="android.support.FILE_PROVIDER_PATHS"
+          android:resource="@xml/passkit_file_paths"
+          tools:replace="android:resource" />
+      </provider>
+    -->
+    </application>
+</manifest>

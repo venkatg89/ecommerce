@@ -1,0 +1,11 @@
+rootProject.name = 'my_bn'
+include ':react-native-passkit-wallet'
+project(':react-native-passkit-wallet').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-passkit-wallet/android')
+include ':react-native-passkit-wallet'
+project(':react-native-passkit-wallet').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-passkit-wallet/android')
+include ':@react-native-cookies_cookies'
+project(':@react-native-cookies_cookies').projectDir = new File(rootProject.projectDir, '../node_modules/@react-native-cookies/cookies/android')
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+
+include ':app'
+

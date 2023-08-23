@@ -1,0 +1,630 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.barnesandnoble.app"
+4    android:versionCode="1020204"
+5    android:versionName="1.2.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:6:5-67
+12-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:7:5-81
+13-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:8:5-78
+14-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:9:5-64
+15-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:9:22-62
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:10:5-78
+16-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:11:5-80
+17-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:11:22-78
+18    <uses-permission android:name="android.permission.VIBRATE" />
+18-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:12:5-65
+18-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:12:22-63
+19
+20    <permission
+20-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:14:5-16:45
+21        android:name="com.barnesandnoble.app.permission.GET_LOGIN_CREDENTIALS"
+21-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:15:7-77
+22        android:protectionLevel="signature" />
+22-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:16:7-42
+23
+24    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+24-->[com.facebook.flipper:flipper:0.70.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/e5902f2131cc302776a0b0b5ed8bca6b/jetified-flipper-0.70.0/AndroidManifest.xml:16:5-76
+24-->[com.facebook.flipper:flipper:0.70.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/e5902f2131cc302776a0b0b5ed8bca6b/jetified-flipper-0.70.0/AndroidManifest.xml:16:22-73
+25    <uses-permission android:name="android.permission.READ_CALENDAR" />
+25-->[:react-native-add-calendar-event] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-add-calendar-event/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-72
+25-->[:react-native-add-calendar-event] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-add-calendar-event/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-69
+26    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+26-->[:react-native-add-calendar-event] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-add-calendar-event/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-73
+26-->[:react-native-add-calendar-event] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-add-calendar-event/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-70
+27
+28    <uses-feature
+28-->[:react-native-camera] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:11:5-13:36
+29        android:name="android.hardware.camera"
+29-->[:react-native-camera] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:12:9-47
+30        android:required="false" />
+30-->[:react-native-camera] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:13:9-33
+31    <uses-feature
+31-->[:react-native-camera] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:14:5-16:36
+32        android:name="android.hardware.camera.autofocus"
+32-->[:react-native-camera] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:15:9-57
+33        android:required="false" />
+33-->[:react-native-camera] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:16:9-33
+34
+35    <queries>
+35-->[:react-native-image-crop-picker] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-14:15
+36        <intent>
+36-->[:react-native-image-crop-picker] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-13:18
+37            <action android:name="android.media.action.IMAGE_CAPTURE" />
+37-->[:react-native-image-crop-picker] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-73
+37-->[:react-native-image-crop-picker] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:21-70
+38        </intent>
+39    </queries> <!-- Required to access Google Play Licensing -->
+40    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+40-->[:rn-fetch-blob] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-73
+40-->[:rn-fetch-blob] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-70
+41    <!--
+42         Required to keep CPU alive while downloading files
+43        (NOT to keep screen awake)
+44    -->
+45    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+45-->[:rn-fetch-blob] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:5-68
+45-->[:rn-fetch-blob] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:22-65
+46    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+46-->[com.google.firebase:firebase-iid:21.1.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/4c197300497c5e1809fc093f2f0ca07f/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:5-82
+46-->[com.google.firebase:firebase-iid:21.1.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/4c197300497c5e1809fc093f2f0ca07f/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:22-79
+47
+48    <uses-feature
+48-->[com.google.android.gms:play-services-maps:17.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/86d42289edb8fe4156daf90dc00b25c2/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+49        android:glEsVersion="0x00020000"
+49-->[com.google.android.gms:play-services-maps:17.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/86d42289edb8fe4156daf90dc00b25c2/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+50        android:required="true" />
+50-->[com.google.android.gms:play-services-maps:17.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/86d42289edb8fe4156daf90dc00b25c2/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+51
+52    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+52-->[com.android.installreferrer:installreferrer:1.1.2] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/28be871282e6b321d458f4c57c9bf2e6/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+52-->[com.android.installreferrer:installreferrer:1.1.2] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/28be871282e6b321d458f4c57c9bf2e6/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+53
+54    <application
+54-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:18:5-82:19
+55        android:name="com.barnesandnoble.app.MainApplication"
+55-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:19:7-38
+56        android:allowBackup="false"
+56-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:23:7-34
+57        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+57-->[androidx.core:core:1.3.1] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/77a616ac027e5fdc24c5ed3995da307b/core-1.3.1/AndroidManifest.xml:24:18-86
+58        android:debuggable="true"
+59        android:icon="@mipmap/ic_launcher"
+59-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:21:7-41
+60        android:label="@string/app_name"
+60-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:20:7-39
+61        android:largeHeap="true"
+61-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:24:7-31
+62        android:roundIcon="@mipmap/ic_launcher_round"
+62-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:22:7-52
+63        android:theme="@style/AppTheme"
+63-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:26:7-38
+64        android:usesCleartextTraffic="true" >
+64-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:25:7-42
+65        <activity
+65-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:27:7-55:18
+66            android:name="com.barnesandnoble.app.MainActivity"
+66-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:28:9-37
+67            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+67-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:30:9-86
+68            android:hardwareAccelerated="false"
+68-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:34:9-44
+69            android:label="@string/app_name"
+69-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:29:9-41
+70            android:launchMode="singleTask"
+70-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:33:9-40
+71            android:screenOrientation="portrait"
+71-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:31:9-45
+72            android:windowSoftInputMode="adjustPan" >
+72-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:32:9-48
+73            <intent-filter>
+73-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:35:9-42:25
+74                <action android:name="android.intent.action.MAIN" />
+74-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:36:11-63
+74-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:36:19-60
+75
+76                <category android:name="android.intent.category.LAUNCHER" />
+76-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:37:11-71
+76-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:37:21-68
+77
+78                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+78-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:38:11-75
+78-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:38:19-73
+79                <action android:name="android.intent.action.VIEW" />
+79-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:39:11-63
+79-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:39:19-60
+80
+81                <category android:name="android.intent.category.DEFAULT" />
+81-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:40:11-70
+81-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:40:21-67
+82                <category android:name="android.intent.category.BROWSABLE" />
+82-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:41:11-72
+82-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:41:21-69
+83            </intent-filter>
+84            <intent-filter>
+84-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:43:9-48:25
+85                <action android:name="android.intent.action.VIEW" />
+85-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:39:11-63
+85-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:39:19-60
+86
+87                <category android:name="android.intent.category.DEFAULT" />
+87-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:40:11-70
+87-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:40:21-67
+88                <category android:name="android.intent.category.BROWSABLE" />
+88-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:41:11-72
+88-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:41:21-69
+89
+90                <data android:scheme="barnesnoble" />
+90-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:47:11-48
+90-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:47:17-45
+91            </intent-filter>
+92            <intent-filter>
+92-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:49:9-54:25
+93                <data android:scheme="amp8197292eeff6925f300e15b-ebb1973c-b22f-11e9-5723-007c928ca240" />
+93-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:47:11-48
+93-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:47:17-45
+94
+95                <action android:name="android.intent.action.VIEW" />
+95-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:39:11-63
+95-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:39:19-60
+96
+97                <category android:name="android.intent.category.DEFAULT" />
+97-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:40:11-70
+97-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:40:21-67
+98                <category android:name="android.intent.category.BROWSABLE" />
+98-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:41:11-72
+98-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:41:21-69
+99            </intent-filter>
+100        </activity>
+101        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+101-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:56:7-84
+101-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:56:17-81
+102
+103        <provider
+103-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:57:7-61:92
+104            android:name="com.barnesandnoble.app.Provider"
+104-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:59:9-33
+105            android:authorities="com.barnesandnoble.app.provider"
+105-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:58:9-62
+106            android:exported="true"
+106-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:60:9-32
+107            android:readPermission="com.barnesandnoble.app.permission.GET_LOGIN_CREDENTIALS" /> <!-- See email from savss@bn.com - Aug 12, 2019 -->
+107-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:61:9-89
+108        <meta-data
+108-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:62:7-64:57
+109            android:name="com.google.android.geo.API_KEY"
+109-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:63:9-54
+110            android:value="@string/GOOGLE_API_KEY_ANDROID" />
+110-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:64:9-55
+111
+112        <provider
+112-->[:react-native-image-crop-picker] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-27:20
+113            android:name="androidx.core.content.FileProvider"
+113-->[:react-native-image-crop-picker] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-62
+114            android:authorities="com.barnesandnoble.app.provider"
+114-->[:react-native-image-crop-picker] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-60
+115            android:exported="false"
+115-->[:react-native-image-crop-picker] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-37
+116            android:grantUriPermissions="true" >
+116-->[:react-native-image-crop-picker] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-47
+117            <meta-data
+117-->[:react-native-image-crop-picker] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:58
+118                android:name="android.support.FILE_PROVIDER_PATHS"
+118-->[:react-native-image-crop-picker] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+119                android:resource="@xml/provider_paths" />
+119-->[:react-native-image-crop-picker] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-55
+120        </provider>
+121
+122        <activity
+122-->[:react-native-image-crop-picker] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:9-31:72
+123            android:name="com.yalantis.ucrop.UCropActivity"
+123-->[:react-native-image-crop-picker] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-60
+124            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+124-->[:react-native-image-crop-picker] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-69
+125
+126        <provider
+126-->[:react-native-share] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-18:20
+127            android:name="cl.json.RNShareFileProvider"
+127-->[:react-native-share] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-55
+128            android:authorities="com.barnesandnoble.app.rnshare.fileprovider"
+128-->[:react-native-share] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-72
+129            android:exported="false"
+129-->[:react-native-share] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+130            android:grantUriPermissions="true" >
+130-->[:react-native-share] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-47
+131            <meta-data
+131-->[:react-native-image-crop-picker] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:58
+132                android:name="android.support.FILE_PROVIDER_PATHS"
+132-->[:react-native-image-crop-picker] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+133                android:resource="@xml/share_download_paths" />
+133-->[:react-native-image-crop-picker] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-55
+134        </provider>
+135        <provider
+135-->[:react-native-webview] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+136            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+136-->[:react-native-webview] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
+137            android:authorities="com.barnesandnoble.app.fileprovider"
+137-->[:react-native-webview] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
+138            android:exported="false"
+138-->[:react-native-webview] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+139            android:grantUriPermissions="true" >
+139-->[:react-native-webview] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+140            <meta-data
+140-->[:react-native-image-crop-picker] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:58
+141                android:name="android.support.FILE_PROVIDER_PATHS"
+141-->[:react-native-image-crop-picker] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+142                android:resource="@xml/file_provider_paths" />
+142-->[:react-native-image-crop-picker] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-55
+143        </provider>
+144        <provider
+144-->[:rn-fetch-blob] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:9-44:20
+145            android:name="com.RNFetchBlob.Utils.FileProvider"
+145-->[:rn-fetch-blob] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-62
+146            android:authorities="com.barnesandnoble.app.provider"
+146-->[:rn-fetch-blob] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-60
+147            android:exported="false"
+147-->[:rn-fetch-blob] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-37
+148            android:grantUriPermissions="true" >
+148-->[:rn-fetch-blob] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-47
+149            <meta-data
+149-->[:react-native-image-crop-picker] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:58
+150                android:name="android.support.FILE_PROVIDER_PATHS"
+150-->[:react-native-image-crop-picker] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+151                android:resource="@xml/provider_paths" />
+151-->[:react-native-image-crop-picker] /Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-55
+152        </provider>
+153
+154        <activity
+154-->[com.google.firebase:firebase-auth:21.0.1] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/be42868b3a1e6178d2164d7c838c81af/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+155            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+155-->[com.google.firebase:firebase-auth:21.0.1] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/be42868b3a1e6178d2164d7c838c81af/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+156            android:excludeFromRecents="true"
+156-->[com.google.firebase:firebase-auth:21.0.1] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/be42868b3a1e6178d2164d7c838c81af/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+157            android:exported="true"
+157-->[com.google.firebase:firebase-auth:21.0.1] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/be42868b3a1e6178d2164d7c838c81af/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+158            android:launchMode="singleTask"
+158-->[com.google.firebase:firebase-auth:21.0.1] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/be42868b3a1e6178d2164d7c838c81af/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+159            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+159-->[com.google.firebase:firebase-auth:21.0.1] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/be42868b3a1e6178d2164d7c838c81af/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+160            <intent-filter>
+160-->[com.google.firebase:firebase-auth:21.0.1] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/be42868b3a1e6178d2164d7c838c81af/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+161                <action android:name="android.intent.action.VIEW" />
+161-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:39:11-63
+161-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:39:19-60
+162
+163                <category android:name="android.intent.category.DEFAULT" />
+163-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:40:11-70
+163-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:40:21-67
+164                <category android:name="android.intent.category.BROWSABLE" />
+164-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:41:11-72
+164-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:41:21-69
+165
+166                <data
+166-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:47:11-48
+167                    android:host="firebase.auth"
+168                    android:path="/"
+169                    android:scheme="genericidp" />
+169-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:47:17-45
+170            </intent-filter>
+171        </activity>
+172        <activity
+172-->[com.google.firebase:firebase-auth:21.0.1] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/be42868b3a1e6178d2164d7c838c81af/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+173            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+173-->[com.google.firebase:firebase-auth:21.0.1] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/be42868b3a1e6178d2164d7c838c81af/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+174            android:excludeFromRecents="true"
+174-->[com.google.firebase:firebase-auth:21.0.1] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/be42868b3a1e6178d2164d7c838c81af/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+175            android:exported="true"
+175-->[com.google.firebase:firebase-auth:21.0.1] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/be42868b3a1e6178d2164d7c838c81af/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+176            android:launchMode="singleTask"
+176-->[com.google.firebase:firebase-auth:21.0.1] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/be42868b3a1e6178d2164d7c838c81af/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+177            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+177-->[com.google.firebase:firebase-auth:21.0.1] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/be42868b3a1e6178d2164d7c838c81af/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+178            <intent-filter>
+178-->[com.google.firebase:firebase-auth:21.0.1] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/be42868b3a1e6178d2164d7c838c81af/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+179                <action android:name="android.intent.action.VIEW" />
+179-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:39:11-63
+179-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:39:19-60
+180
+181                <category android:name="android.intent.category.DEFAULT" />
+181-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:40:11-70
+181-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:40:21-67
+182                <category android:name="android.intent.category.BROWSABLE" />
+182-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:41:11-72
+182-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:41:21-69
+183
+184                <data
+184-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:47:11-48
+185                    android:host="firebase.auth"
+186                    android:path="/"
+187                    android:scheme="recaptcha" />
+187-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:47:17-45
+188            </intent-filter>
+189        </activity>
+190
+191        <service
+191-->[com.google.firebase:firebase-auth:21.0.1] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/be42868b3a1e6178d2164d7c838c81af/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+192            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+192-->[com.google.firebase:firebase-auth:21.0.1] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/be42868b3a1e6178d2164d7c838c81af/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+193            android:enabled="true"
+193-->[com.google.firebase:firebase-auth:21.0.1] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/be42868b3a1e6178d2164d7c838c81af/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+194            android:exported="false" >
+194-->[com.google.firebase:firebase-auth:21.0.1] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/be42868b3a1e6178d2164d7c838c81af/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+195            <intent-filter>
+195-->[com.google.firebase:firebase-auth:21.0.1] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/be42868b3a1e6178d2164d7c838c81af/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+196                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+196-->[com.google.firebase:firebase-auth:21.0.1] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/be42868b3a1e6178d2164d7c838c81af/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+196-->[com.google.firebase:firebase-auth:21.0.1] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/be42868b3a1e6178d2164d7c838c81af/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+197
+198                <category android:name="android.intent.category.DEFAULT" />
+198-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:40:11-70
+198-->/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/src/main/AndroidManifest.xml:40:21-67
+199            </intent-filter>
+200        </service>
+201        <service
+201-->[com.google.firebase:firebase-auth:21.0.1] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/be42868b3a1e6178d2164d7c838c81af/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
+202            android:name="com.google.firebase.components.ComponentDiscoveryService"
+202-->[com.google.firebase:firebase-auth:21.0.1] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/be42868b3a1e6178d2164d7c838c81af/jetified-firebase-auth-21.0.1/AndroidManifest.xml:75:13-84
+203            android:directBootAware="true"
+203-->[com.google.firebase:firebase-common:20.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/ddd786ceafe7ce3d199335dec3144d1b/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+204            android:exported="false" >
+204-->[com.google.firebase:firebase-auth:21.0.1] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/be42868b3a1e6178d2164d7c838c81af/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+205            <meta-data
+205-->[com.google.firebase:firebase-auth:21.0.1] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/be42868b3a1e6178d2164d7c838c81af/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+206                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+206-->[com.google.firebase:firebase-auth:21.0.1] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/be42868b3a1e6178d2164d7c838c81af/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+207                android:value="com.google.firebase.components.ComponentRegistrar" />
+207-->[com.google.firebase:firebase-auth:21.0.1] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/be42868b3a1e6178d2164d7c838c81af/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+208            <meta-data
+208-->[com.google.firebase:firebase-firestore:23.0.1] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f4249646ddb4194a9fd14d4738ac9789/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:20:13-22:85
+209                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+209-->[com.google.firebase:firebase-firestore:23.0.1] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f4249646ddb4194a9fd14d4738ac9789/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:21:17-111
+210                android:value="com.google.firebase.components.ComponentRegistrar" />
+210-->[com.google.firebase:firebase-firestore:23.0.1] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f4249646ddb4194a9fd14d4738ac9789/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:22:17-82
+211            <meta-data
+211-->[com.google.firebase:firebase-iid:21.1.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/4c197300497c5e1809fc093f2f0ca07f/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+212                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+212-->[com.google.firebase:firebase-iid:21.1.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/4c197300497c5e1809fc093f2f0ca07f/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+213                android:value="com.google.firebase.components.ComponentRegistrar" />
+213-->[com.google.firebase:firebase-iid:21.1.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/4c197300497c5e1809fc093f2f0ca07f/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+214            <meta-data
+214-->[com.google.firebase:firebase-messaging:22.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/98205e58bb3579e98ec871bd9aff5abe/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:52:13-54:85
+215                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+215-->[com.google.firebase:firebase-messaging:22.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/98205e58bb3579e98ec871bd9aff5abe/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:53:17-119
+216                android:value="com.google.firebase.components.ComponentRegistrar" />
+216-->[com.google.firebase:firebase-messaging:22.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/98205e58bb3579e98ec871bd9aff5abe/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:54:17-82
+217            <meta-data
+217-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/c35854925ee26faef0c79bc3e352e3c5/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+218                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+218-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/c35854925ee26faef0c79bc3e352e3c5/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+219                android:value="com.google.firebase.components.ComponentRegistrar" />
+219-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/c35854925ee26faef0c79bc3e352e3c5/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+220            <meta-data
+220-->[com.google.firebase:firebase-installations:17.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/d3e62940c41020d18a0bcfe4d386baf7/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+221                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+221-->[com.google.firebase:firebase-installations:17.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/d3e62940c41020d18a0bcfe4d386baf7/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+222                android:value="com.google.firebase.components.ComponentRegistrar" />
+222-->[com.google.firebase:firebase-installations:17.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/d3e62940c41020d18a0bcfe4d386baf7/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+223        </service>
+224
+225        <receiver
+225-->[com.google.firebase:firebase-messaging:22.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/98205e58bb3579e98ec871bd9aff5abe/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:28:9-35:20
+226            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+226-->[com.google.firebase:firebase-messaging:22.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/98205e58bb3579e98ec871bd9aff5abe/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:29:13-78
+227            android:exported="true"
+227-->[com.google.firebase:firebase-messaging:22.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/98205e58bb3579e98ec871bd9aff5abe/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:30:13-36
+228            android:permission="com.google.android.c2dm.permission.SEND" >
+228-->[com.google.firebase:firebase-messaging:22.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/98205e58bb3579e98ec871bd9aff5abe/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:31:13-73
+229            <intent-filter>
+229-->[com.google.firebase:firebase-messaging:22.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/98205e58bb3579e98ec871bd9aff5abe/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:32:13-34:29
+230                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+230-->[com.google.firebase:firebase-messaging:22.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/98205e58bb3579e98ec871bd9aff5abe/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:33:17-81
+230-->[com.google.firebase:firebase-messaging:22.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/98205e58bb3579e98ec871bd9aff5abe/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:33:25-78
+231            </intent-filter>
+232        </receiver>
+233        <!--
+234             FirebaseMessagingService performs security checks at runtime,
+235             but set to not exported to explicitly avoid allowing another app to call it.
+236        -->
+237        <service
+237-->[com.google.firebase:firebase-messaging:22.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/98205e58bb3579e98ec871bd9aff5abe/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:41:9-48:19
+238            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+238-->[com.google.firebase:firebase-messaging:22.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/98205e58bb3579e98ec871bd9aff5abe/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:42:13-82
+239            android:directBootAware="true"
+239-->[com.google.firebase:firebase-messaging:22.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/98205e58bb3579e98ec871bd9aff5abe/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:43:13-43
+240            android:exported="false" >
+240-->[com.google.firebase:firebase-messaging:22.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/98205e58bb3579e98ec871bd9aff5abe/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:44:13-37
+241            <intent-filter android:priority="-500" >
+241-->[com.google.firebase:firebase-messaging:22.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/98205e58bb3579e98ec871bd9aff5abe/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:45:13-47:29
+241-->[com.google.firebase:firebase-messaging:22.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/98205e58bb3579e98ec871bd9aff5abe/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:45:28-51
+242                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+242-->[com.google.firebase:firebase-messaging:22.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/98205e58bb3579e98ec871bd9aff5abe/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:46:17-78
+242-->[com.google.firebase:firebase-messaging:22.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/98205e58bb3579e98ec871bd9aff5abe/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:46:25-75
+243            </intent-filter>
+244        </service>
+245        <service
+245-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/18ab47cbe038ad2f7a50d811b082aee2/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+246            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+246-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/18ab47cbe038ad2f7a50d811b082aee2/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+247            android:exported="false" >
+247-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/18ab47cbe038ad2f7a50d811b082aee2/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+248            <meta-data
+248-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/18ab47cbe038ad2f7a50d811b082aee2/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+249                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+249-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/18ab47cbe038ad2f7a50d811b082aee2/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+250                android:value="cct" />
+250-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/18ab47cbe038ad2f7a50d811b082aee2/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+251        </service>
+252
+253        <provider
+253-->[com.google.firebase:firebase-common:20.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/ddd786ceafe7ce3d199335dec3144d1b/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+254            android:name="com.google.firebase.provider.FirebaseInitProvider"
+254-->[com.google.firebase:firebase-common:20.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/ddd786ceafe7ce3d199335dec3144d1b/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+255            android:authorities="com.barnesandnoble.app.firebaseinitprovider"
+255-->[com.google.firebase:firebase-common:20.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/ddd786ceafe7ce3d199335dec3144d1b/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+256            android:directBootAware="true"
+256-->[com.google.firebase:firebase-common:20.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/ddd786ceafe7ce3d199335dec3144d1b/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+257            android:exported="false"
+257-->[com.google.firebase:firebase-common:20.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/ddd786ceafe7ce3d199335dec3144d1b/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+258            android:initOrder="100" />
+258-->[com.google.firebase:firebase-common:20.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/ddd786ceafe7ce3d199335dec3144d1b/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+259
+260        <service
+260-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/fb6ba39875db99c1f2b8f3604461f960/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+261            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+261-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/fb6ba39875db99c1f2b8f3604461f960/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+262            android:exported="false"
+262-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/fb6ba39875db99c1f2b8f3604461f960/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+263            android:permission="android.permission.BIND_JOB_SERVICE" >
+263-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/fb6ba39875db99c1f2b8f3604461f960/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+264        </service>
+265
+266        <receiver
+266-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/fb6ba39875db99c1f2b8f3604461f960/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+267            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+267-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/fb6ba39875db99c1f2b8f3604461f960/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+268            android:exported="false" />
+268-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/fb6ba39875db99c1f2b8f3604461f960/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+269
+270        <meta-data
+270-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/20ab380885ed0dfc2d0b939412de85b0/jetified-okhttp3-integration-4.11.0/AndroidManifest.xml:11:9-13:43
+271            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+271-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/20ab380885ed0dfc2d0b939412de85b0/jetified-okhttp3-integration-4.11.0/AndroidManifest.xml:12:13-84
+272            android:value="GlideModule" /> <!-- Needs to be explicitly declared on P+ -->
+272-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/20ab380885ed0dfc2d0b939412de85b0/jetified-okhttp3-integration-4.11.0/AndroidManifest.xml:13:13-40
+273        <uses-library
+273-->[com.google.android.gms:play-services-maps:17.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/86d42289edb8fe4156daf90dc00b25c2/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+274            android:name="org.apache.http.legacy"
+274-->[com.google.android.gms:play-services-maps:17.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/86d42289edb8fe4156daf90dc00b25c2/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+275            android:required="false" />
+275-->[com.google.android.gms:play-services-maps:17.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/86d42289edb8fe4156daf90dc00b25c2/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+276
+277        <activity
+277-->[com.google.android.gms:play-services-base:17.5.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f804ec93ffe500ca8df12e19804ed4ed/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+278            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+278-->[com.google.android.gms:play-services-base:17.5.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f804ec93ffe500ca8df12e19804ed4ed/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+279            android:exported="false"
+279-->[com.google.android.gms:play-services-base:17.5.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f804ec93ffe500ca8df12e19804ed4ed/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+280            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+280-->[com.google.android.gms:play-services-base:17.5.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f804ec93ffe500ca8df12e19804ed4ed/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+281
+282        <meta-data
+282-->[com.google.android.gms:play-services-basement:17.5.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/dc4805ca07b75ed4704912b746ec8677/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+283            android:name="com.google.android.gms.version"
+283-->[com.google.android.gms:play-services-basement:17.5.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/dc4805ca07b75ed4704912b746ec8677/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+284            android:value="@integer/google_play_services_version" /> <!-- Localytics app key -->
+284-->[com.google.android.gms:play-services-basement:17.5.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/dc4805ca07b75ed4704912b746ec8677/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+285        <meta-data
+285-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:20:9-22:50
+286            android:name="LOCALYTICS_APP_KEY"
+286-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:21:13-46
+287            android:value="@string/ll_app_key" /> <!-- Localytics referral receiver for attribution -->
+287-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:22:13-47
+288        <receiver
+288-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:25:9-32:20
+289            android:name="com.localytics.android.ReferralReceiver"
+289-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:26:13-67
+290            android:enabled="@bool/ll_referral_receiver_enabled"
+290-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:27:13-65
+291            android:exported="true" >
+291-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:28:13-36
+292            <intent-filter>
+292-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:29:13-31:29
+293                <action android:name="com.android.vending.INSTALL_REFERRER" />
+293-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:30:17-79
+293-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:30:25-76
+294            </intent-filter>
+295        </receiver> <!-- Localytics push tracking -->
+296        <activity
+296-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:35:9-37:73
+297            android:name="com.localytics.android.PushTrackingActivity"
+297-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:36:13-71
+298            android:enabled="@bool/ll_push_tracking_activity_enabled" />
+298-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:37:13-70
+299
+300        <service
+300-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:39:9-46:19
+301            android:name="com.localytics.android.FirebaseTokenService"
+301-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:40:13-71
+302            android:enabled="@bool/ll_fcm_push_services_enabled"
+302-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:41:13-65
+303            android:exported="true" >
+303-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:42:13-36
+304            <intent-filter>
+304-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:43:13-45:29
+305                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+305-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:44:17-80
+305-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:44:25-77
+306            </intent-filter>
+307        </service>
+308        <service
+308-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:47:9-54:19
+309            android:name="com.localytics.android.FirebaseService"
+309-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:48:13-66
+310            android:enabled="@bool/ll_fcm_push_services_enabled"
+310-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:49:13-65
+311            android:exported="true" >
+311-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:50:13-36
+312            <intent-filter>
+312-->[com.google.firebase:firebase-messaging:22.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/98205e58bb3579e98ec871bd9aff5abe/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:45:13-47:29
+313                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+313-->[com.google.firebase:firebase-messaging:22.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/98205e58bb3579e98ec871bd9aff5abe/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:46:17-78
+313-->[com.google.firebase:firebase-messaging:22.0.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/98205e58bb3579e98ec871bd9aff5abe/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:46:25-75
+314            </intent-filter>
+315        </service> <!-- Localytics Places -->
+316        <receiver
+316-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:57:9-59:57
+317            android:name="com.localytics.android.LocationUpdateReceiver"
+317-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:58:13-73
+318            android:enabled="@bool/ll_places_enabled" />
+318-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:59:13-54
+319        <receiver
+319-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:60:9-66:20
+320            android:name="com.localytics.android.BootReceiver"
+320-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:61:13-63
+321            android:enabled="@bool/ll_places_enabled" >
+321-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:62:13-54
+322            <intent-filter>
+322-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:63:13-65:29
+323                <action android:name="android.intent.action.BOOT_COMPLETED" />
+323-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:64:17-79
+323-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:64:25-76
+324            </intent-filter>
+325        </receiver>
+326
+327        <service
+327-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:68:9-76:19
+328            android:name="com.localytics.android.BackgroundService"
+328-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:69:13-68
+329            android:enabled="@bool/ll_places_background_service_enabled"
+329-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:70:13-73
+330            android:exported="true"
+330-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:71:13-36
+331            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
+331-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:72:13-93
+332            <intent-filter>
+332-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:73:13-75:29
+333                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+333-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:74:17-87
+333-->[com.localytics.android:library:5.9.0] /Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/f37f13ecd4731adba8ca3752340eb9f6/jetified-library-5.9.0/AndroidManifest.xml:74:25-84
+334            </intent-filter>
+335        </service>
+336    </application>
+337
+338</manifest>

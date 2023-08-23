@@ -1,0 +1,24 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+
+    "typescript.tsdk": "node_modules/typescript/lib",
+
+    // Autofix on save: https://github.com/Microsoft/vscode-eslint/issues/284
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      {"language": "typescript", "autoFix": true },
+      {"language": "typescriptreact", "autoFix": true }
+    ],
+    "java.configuration.updateBuildConfiguration": "disabled",
+  }
+}

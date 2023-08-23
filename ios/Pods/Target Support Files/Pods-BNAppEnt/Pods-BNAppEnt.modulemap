@@ -1,0 +1,6 @@
+module Pods_BNAppEnt {
+  umbrella header "Pods-BNAppEnt-umbrella.h"
+
+  export *
+  module * { export * }
+}

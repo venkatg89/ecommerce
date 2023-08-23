@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>developmentAppKey</key>
+	<string>TODO - Your Enterprise Development App Key</string>
+	<key>developmentAppSecret</key>
+	<string>TODO - Your Enterprise Development App Secret</string>
+	<key>productionAppKey</key>
+	<string>TODO - Your Enterprise Production App Key</string>
+	<key>productionAppSecret</key>
+	<string>TODO - Your Enterprise Production App Secret</string>
+</dict>
+</plist>

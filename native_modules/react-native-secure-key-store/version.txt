@@ -1,0 +1,2 @@
+Based on:
+pradeep1991singh/react-native-secure-key-store - 2.0.2

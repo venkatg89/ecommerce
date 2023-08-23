@@ -1,0 +1,29 @@
+{
+  "name": "localytics-react-native",
+  "version": "2.8.2",
+  "description": "Localytics analytics and marketing platform",
+  "summary": "Native bindings for the Localytics iOS & Android SDKs",
+  "homepage": "https://github.com/localytics/react-native-template-app",
+  "authors": "Localytics",
+  "license": "Custom",
+  "source": {
+    "git": "https://github.com/localytics/react-native-template-app.git",
+    "tag": "v2.8.2"
+  },
+  "requires_arc": true,
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": [
+    "ios/*.{h,m}",
+    "ios/PluginLibrary/*.{h,m}"
+  ],
+  "ios": {
+    "vendored_frameworks": "ios/Frameworks/Localytics.framework"
+  },
+  "dependencies": {
+    "React": [
+
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+
+default_platform(:android)
+
+platform :android do
+  desc 'Android: Gather Build Information'
+  private_lane :gather_build_information do
+    version_name = read_json(json_path: "package.json")[:version]
+    date_value = sh("date", "+%Y.%m.%d_%H.%M.%S").chomp
+    aab_path = "android/app/build/outputs/bundle/release/app-release.aab"
+    mapping_path = "android/app/build/outputs/mapping/release/mapping.txt"
+    table = Hash.new
+    table[:version_name] = version_name
+    table[:date_value] = date_value
+    table[:aab_path] = aab_path
+    table[:mapping_path] = mapping_path
+    table[:aab] = "release/bnapp.#{version_name}._.#{date_value}.aab"
+    table[:apk] = "release/bnapp.#{version_name}._.#{date_value}.apk"
+    table[:mapping] = "release/bnapp.#{version_name}._.#{date_value}_mapping.txt"
+    table
+  end
+
+  desc 'Android: Build Production AAB'
+  private_lane :build_production_aab do
+    gradle(task: "clean", project_dir: 'android/')
+    # have to build the app twice in succession to fix the missing JS bundle bug from old react native version
+    gradle(task: "bundle", build_type: "Release", project_dir: 'android/')
+    gradle(task: "bundle", build_type: "Release", project_dir: 'android/')
+    gather_build_information()
+  end
+
+  desc 'Android: Copy Build Artifacts To Release Directory'
+  private_lane :copy_to_release do |options|
+    build_info = options[:build_info]
+    Dir.chdir('..') do
+      sh("cp", build_info[:aab_path], build_info[:aab])
+      sh("cp", build_info[:mapping_path], build_info[:mapping])
+    end
+  end
+
+  desc 'Android: Build Production AAB and Universal APK for Security Scanning'
+  lane :build_android_production_release do
+    build_info = build_production_aab()
+
+    copy_to_release(build_info: build_info)
+    
+    signing_info = get_upload_key_signing_from_gradle_properties(path: "android/bnapp-upload-key.properties")
+    
+    bundletool(
+      ks_path: "android/app/#{signing_info[:UPLOAD_STORE_FILE]}",
+      ks_password: signing_info[:UPLOAD_STORE_PASSWORD],
+      ks_key_alias: signing_info[:UPLOAD_KEY_ALIAS],
+      ks_key_alias_password: signing_info[:UPLOAD_STORE_PASSWORD],
+      bundletool_version: '1.8.0',
+      aab_path: build_info[:aab],
+      apk_output_path: build_info[:apk],
+      verbose: true
+    )
+    build_info
+  end
+
+  desc 'Android: Increment versionCode and set versionName to package.json version.'
+  private_lane :update_android_version do
+    version_name = read_json(json_path: "package.json")[:version]
+    increment_version_code(gradle_file_path: "android/app/build.gradle")
+    increment_version_name(gradle_file_path: "android/app/build.gradle", version_name: version_name)
+  end
+
+  desc 'Android: Upload to PreProd Track on Play Store'
+  lane :upload_android_preprod_track do |options|
+    update_android_version
+
+    build_info = build_android_production_release()
+
+    upload_to_play_store(
+      track: "PreProd",
+      aab: build_info[:aab],
+      skip_upload_metadata: true,
+      skip_upload_screenshots: true,
+      skip_upload_images: true,
+      skip_upload_changelogs: true,
+      mapping: build_info[:mapping]
+      )
+  end
+
+  desc 'Android: Upload to Production on Play Store'
+  lane :upload_android_production do |options|
+    update_android_version
+
+    build_info = build_android_production_release()
+
+    upload_to_play_store(
+      aab: build_info[:aab],
+      skip_upload_metadata: true,
+      skip_upload_screenshots: true,
+      skip_upload_images: true,
+      skip_upload_changelogs: true,
+      mapping: build_info[:mapping]
+      )
+  end
+end

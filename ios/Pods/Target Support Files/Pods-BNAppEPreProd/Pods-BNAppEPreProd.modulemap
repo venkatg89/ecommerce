@@ -1,0 +1,6 @@
+module Pods_BNAppEPreProd {
+  umbrella header "Pods-BNAppEPreProd-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/venkateshgrandhi/Desktop/repo/worldpay/bn-ecommerce-mobile-app-2021/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh/values-zh.xml",
+            "map": [
+                {
+                    "source": "/Users/venkateshgrandhi/.gradle/caches/transforms-2/files-2.1/4860af67031e79b3623d8bb9820b6569/jetified-ucrop-2.2.6-native/res/values-zh/values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,109,163",
+                        "endColumns": "53,53,46",
+                        "endOffsets": "104,158,205"
+                    }
+                }
+            ]
+        }
+    ]
+}

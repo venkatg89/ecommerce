@@ -1,0 +1,51 @@
+{
+  "name": "Production",
+
+  "ATG_GATEWAY_BASE_URL": "https://digi-api.barnesandnoble.com",
+  "ATG_GATEWAY_URL_API_VERSION": "ecom",
+  "ATG_GATEWAY_SUBSCRIPTION_KEY": "8e98a098184348b58480e3406196bf68",
+  "ATG_GATEWAY_CLIENT_ID": "bnapp",
+  "ATG_GATEWAY_ENV": "BN_PROD",
+  "ATG_WEB_BASE_URL": "https://mpreprod.barnesandnoble.com",
+  "ATG_GATEWAY_PROD_IMAGE_URL": "https://prodimage.images-bn.com/pimages/<ean>",
+  "ATG_SESSION_EXPIRY_MINUTES": 30,
+  "ATG_STALE_SESSION_EXPIRY_MINUTES": 12,
+
+  "NOOK_DEEP_LINKING_URL": "http://www.nook.com/app/library/product/<ean>/open",
+
+  "MILQ_BASE_URL": "https://browsery-test.azurewebsites.net",
+  "MILQ_API_KEY": "tij78pc3lu2xtc2anqmk6kaxjt",
+  "MILQ_SEARCH_URL": "https://book.milq.com",
+  "MILQ_SEARCH_KEY": "x6p64x5r2l5vihdf86cg1hkwfv",
+  "MILQ_AVATAR_URL": "https://gouda.blob.core.windows.net/people/square/<uid>.jpg",
+
+  "BNAPP_NODE_JS_BASE_URL": "https://dig-bnapp01.azurewebsites.net",
+  "BNAPP_NODE_JS_API_KEY": "eOJhdS886swp8IJTLKy6QVmFhcQJbh4l",
+
+  "BOPIS_BASE_URL": "https://service.barnesandnoble.com",
+  "BOPIS_SEARCH_BASE_URL": "https://complete.barnesandnoble.com",
+  "STORE_GATEWAY_BASE_URL": "https://service.barnesandnoble.com",
+
+  "SUPPORT_EMAILS": "sokon@bn.com,csandu@bn.com,sandriesei@bn.com",
+
+  "SPEEDETAB_BASE_URL": "https://api.speedetab.com/",
+  "SPEEDETAB_APPLICATION_ID": "65629457-6e5c-4276-895e-51b2f400dc2d",
+  "SPEEDETAB_BN_MERCHANT_ID": "271",
+  "SPEEDETAB_PAYMENT_BASE_URL": "https://payment-service.api.speedetab.com",
+  "SPEEDETAB_API_VERSION": "2018-02-15",
+  "SPEEDETAB_SPREEDLY_BASE_URL": "https://core.spreedly.com",
+  "SPEEDETAB_NUTRITION_PDF": "https://dispatch.barnesandnoble.com/content/dam/ccr/pdf/2019/app/Full_Nutrition.pdf",
+  "SPEEDETAB_TERMS_SALE_PDF": "https://www.speedetab.com/terms",
+
+  "BAZAARVOICE_BASE_URL": "https://api.bazaarvoice.com/data",
+  "BAZAARVOICE_API_KEY": "caj63XijrFHHmJFn4U25hCu90g45IZLAjkwECe942VaFo",
+  "BAZAARVOICE_API_VERSION": "5.4",
+  "LIMIT": "100",
+
+  "CLEAR_STATE_ON_STARTUP": true,
+
+  "APPLE_APP_ID": "1477515079",
+  "GOOGLE_PACKAGE_NAME": "com.barnesandnoble.app",
+  "APP_REVIEW_FALLBACK_URL": "https://www.barnesandnoble.com/h/iphone",
+  "APP_REVIEW_FEEDBACK_EMAIL": "bnapp@bn.com"
+}

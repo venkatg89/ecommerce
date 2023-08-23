@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1046499236406",
+    "project_id": "bnapp-2021",
+    "storage_bucket": "bnapp-2021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046499236406:android:c54b561b46d72089f45697",
+        "android_client_info": {
+          "package_name": "com.barnesandnoble.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046499236406-egbme1fknnlu2s796a3ci8ol5p49cp6u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqoqILcUfw4vjOaD78R_xZvPkfcPReueU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1046499236406-egbme1fknnlu2s796a3ci8ol5p49cp6u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
